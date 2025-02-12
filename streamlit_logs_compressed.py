@@ -20,8 +20,6 @@ AES_IV = st.secrets["AES_IV"].encode()
 assert len(AES_KEY) == 16, "La chiave AES deve essere di 128 bit (16 byte)"
 assert len(AES_IV) == 16, "L'IV AES deve essere di 128 bit (16 byte)"
 
-
-
 # Carica il file Excel per associare gli errori alla descrizione
 file_path = 'laser_alarms.xlsx'
 excel_data = pd.ExcelFile(file_path)
@@ -218,17 +216,17 @@ def main():
 
         #DA COMMENTARE SE SI VUOLE RUNNARE SUL NETWORK
         
-    if "RUN_MAIN" not in os.environ:
+    #if "RUN_MAIN" not in os.environ:
         # Siamo nel primo avvio dello script
-        os.environ["RUN_MAIN"] = "true"  # Imposta una variabile per evitare loop
+        #os.environ["RUN_MAIN"] = "true"  # Imposta una variabile per evitare loop
 
         # Avvia Streamlit senza aprire il browser
-        os.system(f"streamlit run streamlit_logs_compressed.py --browser.serverAddress localhost")
-    else:
+       # os.system(f"streamlit run streamlit_logs_compressed.py --browser.serverAddress localhost")
+    #else:
         # Siamo nel processo avviato da Streamlit: apri il browser
-        if "STREAMLIT_SERVER_PORT" in os.environ:
-            url = f"http://localhost:{os.environ['STREAMLIT_SERVER_PORT']}"
-            webbrowser.open_new(url) 
+       # if "STREAMLIT_SERVER_PORT" in os.environ:
+            #url = f"http://localhost:{os.environ['STREAMLIT_SERVER_PORT']}"
+            #webbrowser.open_new(url) 
     
 
 def preprocess_table(df, table_name):
