@@ -20,7 +20,7 @@ AES_IV = st.secrets["AES_IV"].encode()
 assert len(AES_KEY) == 16, "La chiave AES deve essere di 128 bit (16 byte)"
 assert len(AES_IV) == 16, "L'IV AES deve essere di 128 bit (16 byte)"
 
-st.write("Chiavi caricate con successo!")
+
 
 # Carica il file Excel per associare gli errori alla descrizione
 file_path = 'laser_alarms.xlsx'
