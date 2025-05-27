@@ -263,7 +263,7 @@ def find_sessions_with_errors(df):
     return sessions_with_errors
 
 def visualize_session_chart(session_df, actions_to_plot):
-    st.write("Grafico della sessione seleziona:")
+    st.write("Grafico della sessione selezionata:")
 
     # Checkbox per mostrare/nascondere la legenda
     show_legend = st.checkbox("Mostra legenda", value=True, key="legend_checkbox_session_chart")
