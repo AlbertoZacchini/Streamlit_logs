@@ -1,0 +1,46 @@
+[1] CW / FW diode overcurrent alarm -> 1] Verificare se il diodo 808nm è tarato correttamente nella pagina service del sistema 2] Verificare che il diodo 808nm emetta come da specifica 3] Sostituire il diodo 808nm
+[2] CW / FW diode overpower alarm -> 1] Verificare se il diodo 808nm è tarato correttamente nella pagina service del sistema 2] Verificare che il diodo 808nm emetta come da specifica 3] Sostituire il diodo 808nm
+[3] CW / FW diode underpower alarm -> 1] Verificare se il diodo 808nm è tarato correttamente nella pagina service del sistema 2] Verificare che il diodo 808nm emetta come da specifica 3] Sostituire il diodo 808nm
+[4] CW / FW diode 50% circuit intervention alarm -> 1] Se l'errore è continuo, sostituire la scheda D500102#
+[5] CW / FW diode overtemperature alarm -> 1] Verificare se il connettore J7 è inserito correttamente e non ci siano cavi scollegati 3] Sostituire il sensore di temperatura diodo.
+[6] PW diode overpower alarm -> 1] Verificare se il diodo 905nm è tarato correttamente nella pagina service del sistema 2] Verificare che il diodo 905nm emetta come da specifica 3] Sostituire il diodo 905nm
+[7] PW diode underpower alarm -> 1] Verificare se il diodo 905nm è tarato correttamente nella pagina service del sistema 2] Verificare che il diodo 905nm emetta come da specifica 3] Sostituire il diodo 905nm
+[E 22 (0001)] richiesta cambio stato invalido -> 1] Se errore continuo, reinstallare l'applicazione del sistema 2] Sostituire la scheda Toradex T20
+[E 22 (0002)] Errore invio e risposta manipolo -> 1] Verificare se il connettore J9 è inserito correttamente e non ci siano cavi scollegati 2] Verificare le saldature dei cavi della scheda manipolo D500103# 3] Sostituire la scheda D500103#
+[E 22 (0004)] Powersafe doveva essere spenta ma non lo e' -> 1] Se errore continuo probabile fault scheda laser, sostituire scheda D500102#
+[E 22 (0008)] Powersafe doveva essere accesa ma non lo e' -> 1] Se errore continuo probabile fault scheda laser, sostituire scheda D500102#
+[E 22 (0010)] CW doveva essere spenta ma non lo e' -> 1] Se errore continuo probabile fault scheda laser, sostituire scheda D500102#
+[E 22 (0020)] CW doveva essere accesa ma non lo e' -> 1] Se errore continuo probabile fault scheda laser, sostituire scheda D500102#
+[E 22 (0040)] Errore nella lettura delle analogiche -> 1] Se errore continuo probabile fault scheda laser, sostituire scheda D500102#
+[E 22 (0080)] PW doveva essere spenta ma è on -> 1] Se errore continuo probabile fault scheda laser, sostituire scheda D500102#
+[E 22 (0100)] Errore nell'impostare il dac -> 1] Se errore continuo probabile fault scheda laser, sostituire scheda D500102#
+[E 22 (0200)] switching CW è spento mentre dovrebbe essere acceso -> 1] Se errore continuo probabile fault scheda laser, sostituire scheda D500102#
+[E 22 (0400)] switching CW è acceso mentre dovrebbe essere spento -> 1] Se errore continuo probabile fault scheda laser, sostituire scheda D500102#
+[E 22 (0800)] Errore nell'attivazione o spegnimento pulse -> 1] Se errore continuo probabile fault scheda laser, sostituire scheda D500102#
+[E 22 (1000)] Errore copia parametri -> 1] Se errore continuo probabile fault scheda laser, sostituire scheda D500102#
+[E 22 (2000)] PW doveva essere accesa ma non lo e' -> 1] Se errore continuo probabile fault scheda laser, sostituire scheda D500102#
+[E 22 (4000)] Laser hardware sequences error / interruption alarm -> 1] Se errore continuo probabile fault scheda laser, sostituire scheda D500102#
+[E 22 (8000)] Power safe accesa quando dovrebbe essere spenta, in funzionamento normale, non durante le sequenze -> 1] Se errore continuo probabile fault scheda laser, sostituire scheda D500102#
+[E 22 (10000)] CW accesa quando dovrebbe essere spenta, in funzionamento normale, non durante le sequenze -> 1] Se errore continuo probabile fault scheda laser, sostituire scheda D500102#
+[E 22 (20000)] PW accesa quando dovrebbe essere spenta, in funzionamento normale, non durante le sequenze -> 1] Se errore continuo probabile fault scheda laser, sostituire scheda D500102#
+[32] Interlock alarm -> 1] Verificare le saldature dei cablaggi del connettore interlock a pannello 2] Verificare se il connettore J10 è inserito correttamente e non ci siano cavi scollegati  3] Sostituire la scheda D5000102#
+[33] Laser button pressed alarm -> 1] Verificare  che non ci sia una ostruzione meccanica nel pulsante manipolo che lo tiene sempre premuto 2] Sostituire scheda D500103#
+[35] Emergency button alarm -> 1] Se l'errore persiste verificare se il corpo del pulsante di emergenza è inserito correttamente nel corpo pulsante 2] Verificare se il connettore J14 è inserito correttamente e non ci siano cavi scollegati 3] Sostituire il corpo contatti del pulsante di emergenza
+[36] Unplugged optical terminal alarm -> 1] Verificare che le piazzole della scheda dell'ottica usata non siano ossidate/danneggiate, nel caso sostituire la scheda relativa all'ottica testata 2] Sostituire la scheda D500103#
+[37] Error in the secondary timer alarm -> 1] Verificare se il connettore J9 è inserito correttamente e non ci siano cavi scollegati 2] Verificare le saldature dei cavi della scheda manipolo D500103# 3] Sostituire la scheda D500103#
+[40] Dissipator overtemperature alarm -> 1] La temperatura del dissipatore diodo CW è al di sopra di quella consentita, attendere che la ventilazione interna porti il dispositivo dentro il range ammesso 2] Se l'errore persiste, verificare se il connettore J7 è inserito correttamente e non ci siano cavi scollegati 3] Sostituire il sensore di temperatura.
+[42] Environment overtemperature alarm -> 1] Verificare che  la temperatura del dispositivo sia al di sopra di quella consentita, attendere che la ventilazione interna porti il dispositivo dentro il range ammesso 2] Verificare che la temperatura ambiente della scheda letta in Service sia quella dell'ambiente ±10°C, altrimenti sostituire la scheda D500102#
+[43] Environment undertemperature alarm -> 1] La temperatura del dispositivo è al di sotto di quella consentita, attendere che la circuiteria interna porti il dispositivo dentro il range ammesso 2] Verificare che la temperatura ambiente della scheda letta in Service sia quella dell'ambiente ±10°C, altrimenti sostituire la scheda D500102# 3] Se l'errore persiste, sostituire la scheda D500123#
+[44] Bad CW / FW diode fan alarm -> 1] Verificare se il connettore J51 è inserito correttamente e non ci siano cavi scollegati 2] Sostituire la ventola del diodo CW
+[47] Communication timeout with the PC board alarm -> 1] Verificare se il connettore J4 della scheda D500102# è inserito correttamente e non ci siano cavi scollegati 2] Verificare se il connettore J1 della scheda D500106# è inserito correttamente e non ci siano cavi scollegati 3] Sostiuire il cavo di collegamento tra le schede D500102# e D500106#
+[48] Communication timeout with the handle board alarm -> 1] Verificare se il connettore J9 è inserito correttamente e non ci siano cavi scollegati 2] Verificare le saldature dei cavi della scheda manipolo D500103# 3] Sostituire la scheda D500103# e cablaggi manipolo
+[49] Communication error with the handle board alarm -> 1] Verificare se il connettore J9 è inserito correttamente e non ci siano cavi scollegati 2] Verificare le saldature dei cavi della scheda manipolo D500103# 3] Sostituire la scheda D500103# e cablaggi manipolo
+[50] Handle reboot -> 1] Verificare se il connettore J9 è inserito correttamente e non ci siano cavi scollegati 2] Verificare le saldature dei cavi della scheda manipolo D500103# 3] Sostituire la scheda D500103# e cablaggi manipolo
+[51] Laser board reboot -> 1] Se l'errore persiste, sostituire la scheda D500102#
+[52] Laser board FLASH error alarm -> 1] Se l'errore persiste, sostituire la scheda D500102#
+[53] Handle board FLASH error alarm -> 1] Eseguire un aggiornamento del sistema 2] Se l'errore persiste, sostituire la scheda D500103#
+[54] EEprom error alarm -> 1] RICALIBRARE valori diodi 808nm e 905m, 2] Se l'errore persiste, sostituire la scheda D500102#
+[55] Wrong optical terminal alarm -> 1] Verificare il corretto inserimento dell'ottica nella sede del manipolo 2] Verificare che la scheda nel retro dell'ottica non abbia le piazzole danneggiate/ossidate 3] Sostituire la scheda D500103#
+[56] Wrong therapy data alarm -> 1] Eseguire un aggiornamento del sistema
+[60] AC power absent alarm -> Avviene solo se si rimuove l'alimentazione durante l'emissione
+[62] SPI n. 0 hardware peripheral alarm -> 1] Se l'errore persiste, sostituire la scheda D500102#

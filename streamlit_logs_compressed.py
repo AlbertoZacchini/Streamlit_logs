@@ -284,6 +284,7 @@ def visualize_error_chart(plot_df, show_legend):
         ).properties(width=900, height=400)
         st.altair_chart(error_chart, use_container_width=True)
 
+@st.cache_data
 def find_sessions_with_errors(df):
     start_events = df[df['detail'] == "app start"].sort_values(by='msboot')
     sessions_with_errors = {}
